@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --white: hsl(0, 0%, 100%);
+    --light-pink: hsl(275, 100%, 97%);
+    --grayish-purple: hsl(292, 16%, 49%);
+    --dark-purple: hsl(292, 42%, 14%);
+
+    --main-font: "Work Sans";
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 24px;
+    min-height: 100vh;
+    font-family: var(--main-font) , 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: var(--dark-purple);
+    background-color: var(--light-pink);
+    background-image: url('./assets/images/background-pattern-mobile.svg');
+    background-repeat: no-repeat;
+}
+.card{
+    padding: 24px;
+    width: 327px;
+    background-color: var(--white);
+    border-radius: 8px;
+}
+.card__header{
+    display: flex;
+    align-items: center;
+    height: 38px;
+    margin-bottom: 24px;
+}
+.card__title{
+    margin: 0 0 0 24px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.card__section{
+    margin: 24px 0px;
+}
+.card__question{
+    font-weight: 600;
+}
+.card__answer{
+    margin-top: 24px;
+    font-size: 14px;
+    color: var(--grayish-purple);
+}
+.card__hr{
+    height: 1px;
+    background-color: var(--light-pink);
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+.footer div{
+    font-size: 14px;
+}
+.footer a {
+    font-size: 14px;
+    color: hsl(228, 45%, 44%);
+}
