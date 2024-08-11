@@ -70,7 +70,6 @@ body{
     color: var(--accent-purple);
 }
 .card__question_title{
-    /* max-width: 80%; */
     max-width: calc(100% - 40px);
     font-weight: 600;
     line-height: 19px;
