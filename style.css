@@ -121,6 +121,7 @@ details[open] > summary .card__question_icon{
     .card{
         padding: 40px;
         width: 600px;
+        border-radius: 16px;
     }
     .card__header{
         height: 66px;
