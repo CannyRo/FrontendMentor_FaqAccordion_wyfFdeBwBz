@@ -113,8 +113,8 @@ details[open] > summary .card__question_icon{
 @media (min-width: 376px) { 
     body{
         background-image: url('./assets/images/background-pattern-desktop.svg');
-        background-size: auto 320px;
-        background-position: bottom calc(100vh - 320px) center;
+        background-size: 1440px 320px;
+        background-position: top center;
     }
 }
 @media (min-width: 768px) {
@@ -153,5 +153,6 @@ details[open] > summary .card__question_icon{
 @media (min-width: 1440px) { 
     body{
         background-size: 100% auto;
+        background-position: bottom calc(100% - (320px - (32 / 144 * 100vw))) center;
     }
 }
